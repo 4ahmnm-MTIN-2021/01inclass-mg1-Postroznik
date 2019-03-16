@@ -5,7 +5,7 @@ public class Fish : MonoBehaviour
 {
     private const string TAGPLAYER = "Player";
     private const string TAGFLOOR = "Fish";
-    public TextMeshProUGUI score;
+    public TextMeshProUGUI Score;
     public int scoreAmount;
 
     void Start()
@@ -18,7 +18,7 @@ public class Fish : MonoBehaviour
         if (collision.tag == TAGPLAYER && gameObject.tag == "Fish")
         {
             scoreAmount++;
-            score.text = "" + scoreAmount.ToString();
+            Score.text = scoreAmount.ToString("");
             Debug.Log("fish counted");
             Destroy(this.gameObject);
         }
