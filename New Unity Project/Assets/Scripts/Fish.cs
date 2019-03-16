@@ -19,7 +19,6 @@ public class Fish : MonoBehaviour
         {
             scoreAmount++;
             Score.text = scoreAmount.ToString("");
-            Debug.Log("fish counted");
             Destroy(this.gameObject);
         }
     }
