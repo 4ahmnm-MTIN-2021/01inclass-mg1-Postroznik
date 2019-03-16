@@ -1,6 +1,6 @@
 # HungryPenguin
 
-Progress in %:  60% finished 
+Progress in %:  65% finished 
 <br>
                 Konzept ist fertig 
 <br>
@@ -24,6 +24,8 @@ Progress in %:  60% finished
                 SceneLoader funktionieren (ContactWithFloor-Script inspiriert von Clea)
 <br>
                 Timer funktioniert und zählt von 1:00 bis 0 herunter
+<br>
+                Fische kann man einsammeln und werden beim Score gezählt
                 
 
 
