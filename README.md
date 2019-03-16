@@ -1,6 +1,6 @@
 # HungryPenguin
 
-Progress in %:  65% finished 
+Progress in %:  68% finished 
 <br>
                 Konzept ist fertig 
 <br>
@@ -26,6 +26,8 @@ Progress in %:  65% finished
                 Timer funktioniert und zählt von 1:00 bis 0 herunter
 <br>
                 Fische kann man einsammeln und werden beim Score gezählt
+<br>
+                Fische werden gespawned, aber nur solange der erste Fisch nicht eingesammelt worden ist. Werden viel zu schnell gespawned und nur in einer horizontalen Linie.
                 
 
 
