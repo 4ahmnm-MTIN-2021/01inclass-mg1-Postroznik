@@ -8,6 +8,8 @@ TagManager:
   - IcesheetRight
   - IcesheetLeft
   - Timer
+  - Manager
+  - Fish
   layers:
   - Default
   - TransparentFX
