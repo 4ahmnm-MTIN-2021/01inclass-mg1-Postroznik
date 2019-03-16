@@ -1,53 +1,26 @@
 ﻿using UnityEngine;
+using TMPro;
 
 public class Fish : MonoBehaviour
 {
-    GameLogic gameLogic;
     private const string TAGPLAYER = "Player";
     private const string TAGFLOOR = "Fish";
+    public TextMeshProUGUI score;
+    public int scoreAmount;
 
     void Start()
     {
-        gameLogic = GameObject.FindGameObjectWithTag("Manager").GetComponent<GameLogic>();
+        scoreAmount = 0;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == TAGPLAYER && gameObject.tag == "Fish")
         {
-            gameLogic.AddScore();
-            Debug.Log("added score");
+            scoreAmount++;
+            score.text = "" + scoreAmount.ToString();
+            Debug.Log("fish counted");
             Destroy(this.gameObject);
         }
-
-        //private void OnTriggerEnter2D(Collider2D col)
-        //{
-
-        //    if (col.CompareTag("Player"))
-        //    {
-        //        if (gameLogic != null)
-        //        {
-        //            gameLogic.AddFish();
-        //            Destroy(this.gameObject);
-        //            Debug.Log("Gamelogic!=null");
-        //        }
-        //        else
-        //        {
-        //            Debug.Log("Gamelogic=null");
-        //        }
-
-        //        Debug.Log("playercollision");
-        //    }
-        //    else if (col.CompareTag("Floor"))
-        //    {
-        //        if (gameLogic == null)
-        //        {
-        //            Debug.Log("Gamelogic=null22");
-        //            return;
-        //        }
-
-        //        Destroy(this.gameObject);
-        //        Debug.Log("groundcollision");
-        //    }
-        }
     }
+ }
