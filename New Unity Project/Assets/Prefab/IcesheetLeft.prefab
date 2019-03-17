@@ -104,6 +104,7 @@ MonoBehaviour:
   minPosLeft: 0
   maxPosRight: 0
   padding: 0
+  startx: 0
 --- !u!212 &212773284013516586
 SpriteRenderer:
   m_ObjectHideFlags: 1

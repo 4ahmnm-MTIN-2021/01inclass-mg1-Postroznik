@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 07d4dcb1abc5ec145b7df67395efe0a3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - icesheetRight: {instanceID: 0}
+  - icesheetLeft: {instanceID: 0}
+  - icesheetBottom: {instanceID: 0}
+  - icesheetContainer: {instanceID: 0}
+  - iceSheetPosLeftTop: {instanceID: 0}
+  - iceSheetPosRightTop: {instanceID: 0}
+  - iceSheetPosLeftBottom: {instanceID: 0}
+  - iceSheetPosRightBottom: {instanceID: 0}
+  - iceSheetPosUndergroundRight: {instanceID: 0}
+  - icesheetPosUntergroundLeft: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
