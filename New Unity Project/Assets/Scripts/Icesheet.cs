@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Icesheet : MonoBehaviour {
 
@@ -10,7 +8,6 @@ public class Icesheet : MonoBehaviour {
     public float maxPosRight;
     public float padding;
     public float startx;
-
 
     // Use this for initialization
     void Start () 
