@@ -89,7 +89,6 @@ public class Icesheet : MonoBehaviour
     {
         var deltaY = Time.deltaTime * speed;
         var newPosY = Mathf.Clamp(transform.position.y + deltaY, minPosBottom, maxPosTop);
-        Debug.Log(newPosY);
         transform.position = new Vector2(transform.position.x, newPosY);
     }
 

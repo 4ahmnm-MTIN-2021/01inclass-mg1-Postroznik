@@ -13,7 +13,7 @@ public class Fish : MonoBehaviour
         scoreAmount = 0;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == TAGPLAYER && gameObject.tag == "Fish")
         {

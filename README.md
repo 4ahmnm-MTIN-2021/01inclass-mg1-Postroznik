@@ -5,9 +5,9 @@
 Hat man innerhalb der 60sec. weniger als 3 Fische gesammelt, verhungert der Pinguin und man hat das Game verloren. </p>
 
 
-Progress in %:  90% finished 
+<h4>Game is 90% finished </h4>
 <br>
-                Konzept ist fertig 
+                Konzept ist fertig
 <br>
                 Projekt wurde auf GitHub angelegt
 <br>
@@ -18,9 +18,9 @@ Progress in %:  90% finished
                 .DSStore bei .gitignore geadded
 <br>
                 Unity-Projekt ist angelegt
-<br>                
+<br>
                 Scenes wurden angelegt
-<br>                
+<br>               
                 Player beweget sich in, x-Richtung durch Steuerung, y-Richtung durch Gravity
                 (PlayerController-Script inspiriert von Caro)
 <br>
@@ -67,14 +67,25 @@ Wie man den Score programmiert, dass die Fische gezählt werden und der Score an
 Das Movement vom Charakter.
 <br> 
 Wie sich die Plattformen nach links und rechts bewegen.
-
-
-
+<br>
+<br>
+<a href="https://youtu.be/UD56Tof7hmw">Link zum Trailer</a>
+<br>
+<br>
+Konzept
 <img src="Screenshots/concept.jpeg">
+<br>
+Intro-Screen
 <img src="Screenshots/Intro.png">
+<br>
+Play-Screen
 <img src="Screenshots/Play.png">
+<br>
+Won-Screen
 <img src="Screenshots/Won.png">
+<br>
+GameOver-Screen
 <img src="Screenshots/GameOver.png">
 
-
+©Anna Wenger
 

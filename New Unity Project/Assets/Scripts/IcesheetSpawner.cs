@@ -5,7 +5,6 @@ public class IcesheetSpawner : MonoBehaviour
     public GameObject icesheetRight;
     public GameObject icesheetLeft;
     public GameObject icesheetBottom;
-    
     public GameObject icesheetContainer;
     public GameObject iceSheetPosLeftTop, iceSheetPosRightTop, iceSheetPosLeftBottom, iceSheetPosRightBottom;
     public GameObject iceSheetPosUndergroundRight, icesheetPosUntergroundLeft;
