@@ -10,6 +10,7 @@ TagManager:
   - Timer
   - Manager
   - Fish
+  - IcesheetUnderground
   layers:
   - Default
   - TransparentFX
