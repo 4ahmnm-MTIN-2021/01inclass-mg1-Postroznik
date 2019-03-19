@@ -1,6 +1,11 @@
 # HungryPenguin
 
-Progress in %:  68% finished 
+<h2> Beschreibung</h2>
+<p>Bei  dem 2D-Game „HungryPenguin“ ist das Ziel den Pinguin zu füttern, indem man so viele Fische wie möglich sammelt. Der Pinguin kann sich nach links und rechts Bewegen und man muss versuchen ihn so zu steuern (Pfeiltasten), dass er auf einer Plattform mit einem Fisch zu landen kommt.   Jedoch sind die Plattformen kein fixes Element sondern bewegen sich mittels Spawner(Random) ebenfalls auf der x-Achse hin und her. Es gibt aber auch gewisse Plattformen die nach oben schweben, somit kommt man in der Scene wieder nach oben.
+Hat man innerhalb der 60sec. weniger als 3 Fische gesammelt, verhungert der Pinguin und man hat das Game verloren. </p>
+
+
+Progress in %:  90% finished 
 <br>
                 Konzept ist fertig 
 <br>
@@ -23,16 +28,15 @@ Progress in %:  68% finished
 <br>                
                 SceneLoader funktionieren (ContactWithFloor-Script inspiriert von Clea)
 <br>
-                Timer funktioniert und zählt von 1:00 bis 0 herunter
+                Timer funktioniert und zählt von 1:00 bis 0 herunter (inspiriert von smeerws)
 <br>
                 Fische kann man einsammeln und werden beim Score gezählt
 <br>
-                Fische werden gespawned, aber nur solange der erste Fisch nicht eingesammelt worden ist. Werden viel zu schnell gespawned und nur in einer horizontalen Linie.
+                Icesheets werden gespawned und schweben von links nach rechts, rechts nach links
+                Jene Icesheets, mit denen man wieder nach oben kommt funktionieren auch. (inspiriert von smeerws)
+<br>
+                Fische werden auf die schwebenden Icesheet gespawned. (inspiriert von smeerws)
                 
-
-
-Bei „HungryPenguin“ ist das Ziel den Pinguin zu füttern, indem man so viele Fische wie möglich sammelt. Der Pinguin kann sich nach links und rechts Bewegen und man muss versuchen ihn so zu steuern (Pfeiltasten), dass er auf einer Plattform mit einem Fisch zu landen kommt.   Jedoch sind die Plattformen kein fixes Element sondern bewegen sich mittels Spawner(Random) ebenfalls auf der x-Achse hin und her. Es gibt aber auch gewisse Plattformen die nach oben schweben, somit kommt man in der Scene wieder nach oben.
-Hat man innerhalb der 60sec. weniger als 3 Fische gesammelt, verhungert der Pinguin und man hat das Game verloren. 
 
 
 Name des Minigames lautet: HungryPenguin
@@ -43,9 +47,34 @@ Visualstudio 7.7
 <br>
 Betriebssystem: macOS Mojave 10.14.1
 <br>
-Targetplattform: Computer 16:9 mit einer Auflösung von 1920,1080 
+Targetplattform: Computer 16:9 mit einer Auflösung von 1920,1080px 
+<br>
+Runtime Version: .NET 3.5 Equivalent
+<br>
+API Level: .NET 2.0 Subset
+<br>
+Steuerung: Pfeiltasten
+<br>
+<h2> Limitations</h2>
+Score funktioniert nicht
+<br>
+Nach 60 sec. kommt automatisch der GameOver-Screen, da der Score nicht abgefragt wird. Somit ist es unmöglich zu gewinnen. 
+<h2>LessonsLearned</h2>
+Wie man den Countdown anlegt, dass es von 60 runter zählt und angezeigt wird
+<br>
+Wie man den Score programmiert, dass die Fische gezählt werden und der Score angezeigt wird.
+<br>
+Das Movement vom Charakter.
+<br> 
+Wie sich die Plattformen nach links und rechts bewegen.
+
+
 
 <img src="Screenshots/concept.jpeg">
+<img src="Screenshots/Intro.png">
+<img src="Screenshots/Play.png">
+<img src="Screenshots/Won.png">
+<img src="Screenshots/GameOver.png">
 
 
 

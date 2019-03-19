@@ -4,6 +4,7 @@ using TMPro;
 public class Timer : MonoBehaviour
 {
     private TextMeshProUGUI watch;
+
     public SceneLoader SceneLoader;
     public const int duration = 60;
     public int timeRemaining;
