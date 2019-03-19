@@ -18,7 +18,9 @@ public class Fish : MonoBehaviour
         if (collision.tag == TAGPLAYER && gameObject.tag == "Fish")
         {
             scoreAmount++;
+            Debug.Log("fish counted");
             Score.text = scoreAmount.ToString("");
+            Debug.Log("score is displayed");
             Destroy(this.gameObject);
         }
     }

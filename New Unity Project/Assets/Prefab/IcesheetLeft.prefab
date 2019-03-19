@@ -99,12 +99,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c926c54fcf62d4e209e6eaf73a2fa06e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fish: {fileID: 1711222347051860, guid: 7dbda7794fa13406094a712632b1a29d, type: 2}
   speed: 10
   direction: 1
   minPosLeft: 0
   maxPosRight: 0
   padding: 0
   startx: 0
+  fishPosX: 0
+  fishPosY: -5
 --- !u!212 &212773284013516586
 SpriteRenderer:
   m_ObjectHideFlags: 1

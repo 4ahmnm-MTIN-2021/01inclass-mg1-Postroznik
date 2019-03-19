@@ -2,9 +2,12 @@
 
 public class Icesheet : MonoBehaviour
 {
-
     private float maxPosTop;
     private float minPosBottom;
+    private float minInstantiateRange;
+    private float maxInstantiateRange;
+
+    public GameObject fish;
 
     public float speed;
     public int direction;
@@ -12,6 +15,7 @@ public class Icesheet : MonoBehaviour
     public float maxPosRight;
     public float padding;
     public float startx;
+    public float fishPosX, fishPosY;
 
     // Use this for initialization
     private void Start () 
@@ -23,18 +27,43 @@ public class Icesheet : MonoBehaviour
         minPosBottom = -6.4f;
         maxPosTop = 6.8f;
         padding = 2f;
+        fishPosX = 0f;
+        fishPosY = 3f;
+        minInstantiateRange = 1f;
+        maxInstantiateRange = 5f;
+
+        RandomInstantiateFishOnSheet();
     }
-	
+
+    private void RandomInstantiateFishOnSheet()
+    {
+        float rand = Random.Range(minInstantiateRange, maxInstantiateRange);
+        if (rand > 2)
+        {
+            InstantiateFischOnSheet(GetFishPosition());
+        }
+    }
+
+    public void InstantiateFischOnSheet(Vector2 icesheetPos)
+    {
+        GameObject go = Instantiate(fish, new Vector3(0.0f, 0.0f, 0.0f), Quaternion.identity, this.transform);
+        go.gameObject.transform.localPosition = GetFishPosition();
+    }
+
+    private Vector2 GetFishPosition()
+    {
+        return new Vector2(fishPosX, fishPosY);
+    }
+
     private int SetUpDirection () 
     {
+        int tempDirection = -1;
+
         if (gameObject.tag == "IcesheetLeft") 
         { 
-            return 1;
+            tempDirection = 1;
         }
-        else 
-        {
-            return -1;
-        }
+        return tempDirection;
     }
 
     // Update is called once per frame
